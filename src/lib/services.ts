@@ -1,11 +1,11 @@
-import { X_RapidAPI_Key } from '$env/static/private';
+// import { X_RapidAPI_Key } from '$env/static/private';
 import { error } from '@sveltejs/kit';
 import Axios from 'axios';
 
 const axios = Axios.create({
 	baseURL: 'https://youtube138.p.rapidapi.com/',
 	headers: {
-		'X-RapidAPI-Key': X_RapidAPI_Key,
+		'X-RapidAPI-Key': '22db83120bmshffea895a94af5fap10c309jsn2bc7affda3dc',
 		'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
 	},
 	params: {
