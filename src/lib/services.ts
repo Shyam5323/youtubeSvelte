@@ -5,7 +5,7 @@ import Axios from 'axios';
 const axios = Axios.create({
 	baseURL: 'https://youtube138.p.rapidapi.com/',
 	headers: {
-		'X-RapidAPI-Key': '22db83120bmshffea895a94af5fap10c309jsn2bc7affda3dc',
+		'X-RapidAPI-Key': '7988a028b6msh3cb891ee5209a5bp19aceejsn28bca0155732',
 		'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
 	},
 	params: {
