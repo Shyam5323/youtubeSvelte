@@ -17,8 +17,8 @@ export const actions = {
 				error: 'you have an empty search'
 			});
 		}
-		if(query === 'who') {
-			throw redirect(301, `/result?q=svelte`);
+		if(query === 'what do i need in life') {
+			throw redirect(301, `/result?q=the person who sent you this`);
 		}
 		throw redirect(301, `/result?q=${query}`);
 	}
